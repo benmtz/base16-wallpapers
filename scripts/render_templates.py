@@ -3,6 +3,8 @@ from os.path import dirname, join
 
 from generate_template_from_source import generate_template_from_source
 
+print("Rendering mustache wallpapers")
+
 source_dir = join(dirname(__file__), "..", "sources")
 target_dir = join(dirname(__file__), "..", "templates")
 
