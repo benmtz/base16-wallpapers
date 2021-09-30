@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$USER_HOME$/.desktop-configuration/.idea/.desktop-configuration.iml" filepath="$USER_HOME$/.desktop-configuration/.idea/.desktop-configuration.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/base16-wallpapers.iml" filepath="$PROJECT_DIR$/.idea/base16-wallpapers.iml" />
       <module fileurl="file://$PROJECT_DIR$/../concourse-pipelines/.idea/concourse-pipelines.iml" filepath="$PROJECT_DIR$/../concourse-pipelines/.idea/concourse-pipelines.iml" />
       <module fileurl="file://$PROJECT_DIR$/../devel/.idea/devel.iml" filepath="$PROJECT_DIR$/../devel/.idea/devel.iml" />

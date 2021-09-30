@@ -6,6 +6,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="concourse-pipelines" />
     <orderEntry type="module" module-name="devel" />
+    <orderEntry type="module" module-name=".desktop-configuration" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_FOLDERS">
