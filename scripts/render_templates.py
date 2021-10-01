@@ -15,14 +15,16 @@ makedirs(target_dir, exist_ok=True)
 
 with scandir(source_dir) as sources:
 
+    name = sources.name.replace(".svg", "")
+
     print(
-        dump({s.name.replace(".svg", ""): {"extension": ".svg", "output": "wallpapers"} for s in sources}),
+        dump({name: {"extension": ".svg", "output": name} for s in sources}),
         file=open(join(target_dir, 'config.yaml'), 'w')
     )
 
     for source_svg in sources:
         with open(join(source_dir, source_svg), 'r') as t:
             generated = generate_template_from_source(t.read())
-            with open(join(target_dir, source_svg.name.replace("svg", "mustache")), 'w') as g:
+            with open(join(target_dir, name + ".mustache"), 'w') as g:
                 g.write(generated)
 
