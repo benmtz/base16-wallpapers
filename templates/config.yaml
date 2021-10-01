@@ -1,7 +1,7 @@
 archlinux-wallpaper:
   extension: .svg
-  output: wallpapers
+  output: archlinux-wallpaper
 palette:
   extension: .svg
-  output: wallpapers
+  output: palette
 
