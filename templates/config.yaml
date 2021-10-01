@@ -1,3 +1,7 @@
-default:
-    extension: .mustache
-    output: wallpapers
+archlinux-wallpaper:
+  extension: .svg
+  output: wallpapers
+palette:
+  extension: .svg
+  output: wallpapers
+
