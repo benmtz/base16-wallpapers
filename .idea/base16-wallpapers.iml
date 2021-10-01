@@ -7,6 +7,7 @@
     <orderEntry type="module" module-name="concourse-pipelines" />
     <orderEntry type="module" module-name="devel" />
     <orderEntry type="module" module-name=".desktop-configuration" />
+    <orderEntry type="module" module-name="base16-builder-ansible" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_FOLDERS">
