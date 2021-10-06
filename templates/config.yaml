@@ -1,6 +1,12 @@
 archlinux-wallpaper:
   extension: .svg
   output: archlinux-wallpaper
+hex:
+  extension: .svg
+  output: hex
 palette:
   extension: .svg
   output: palette
+sun:
+  extension: .svg
+  output: sun
