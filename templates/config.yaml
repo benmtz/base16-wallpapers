@@ -4,6 +4,9 @@ archlinux-wallpaper:
 hex:
   extension: .svg
   output: hex
+lines:
+  extension: .svg
+  output: lines
 palette:
   extension: .svg
   output: palette
