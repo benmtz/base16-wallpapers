@@ -1,6 +1,9 @@
 archlinux-wallpaper:
   extension: .svg
   output: archlinux-wallpaper
+eyes:
+  extension: .svg
+  output: eyes
 hex:
   extension: .svg
   output: hex
