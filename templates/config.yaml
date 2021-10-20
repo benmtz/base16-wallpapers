@@ -16,3 +16,6 @@ palette:
 sun:
   extension: .svg
   output: sun
+ts-code:
+  extension: .svg
+  output: ts-code
